@@ -20,7 +20,7 @@ This project showcases the use of **CSS Grid** to build a structured, responsive
 
 ## ✅ How to Run
 1. Clone the repository or download the project files.
-2. Open `index.html` in your browser.
+2. Open `task2.html` in your browser.
 3. View the 3x2 grid layout with properly spaced items.
 
 ---
