@@ -24,7 +24,7 @@ This project demonstrates the fundamental concepts of **CSS Flexbox**. It includ
 
 ## ✅ How to Run
 1. Clone the repository or download the project files.
-2. Open `index.html` in your browser.
+2. Open `task1.html` in your browser.
 3. Explore the navbar and the centered card layout.
 
 ---
