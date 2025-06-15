@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/7466487b9b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+     <div class="container">
+        <nav>
+            <img src="logo1.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skill Sets</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+        </nav> 
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi,I'm <span>Suyash Anand</span><br> From MIT,Manipal</h1>
+        </div> 
+     </div>
+</div>
+
+<div id="about">
+    <div class="container">
+         <div class="row">
+             <div class="about-col-1">
+                <img src="user.png">
+             </div>
+             <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> A passionate and curious developer with a strong foundation in Data Science, Artificial Intelligence, and Web Development. I'm currently pursuing my B.Tech in Data Science from MIT,Manipal, where I'm constantly exploring innovative ways to turn data into actionable insights and build intelligent solutions.
+                    I enjoy working on real-world projects that blend creativity with logic — whether it's designing user-friendly websites, building AI-powered tools, or automating tasks with Python. I'm always eager to learn new technologies, collaborate with like-minded people, and challenge myself with exciting problems.
+                    When I'm not coding, you'll find me exploring open-source projects, experimenting with new frameworks, or working on my next idea. My goal? To build solutions that make a difference.
+                    Let's connect and create something amazing!
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li> <span>UI/UX</span><br>Designing Web Interfaces </li>
+                        <li> <span>Web Development</span><br>Websites Development </li>
+                        <li> <span>Pandas and Numpy</span><br>Analyzing Complex Datasets</li>                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li> <span>Weather App</span><br>Uses Simple HTML CSS JS and basic Api.</li>
+                        <li> <span>QR code Generator</span><br>Capable of generating Qr code for any text or link.</li>
+                        <li> <span>Portfolio Website</span><br>Latest learning of UI/UX and implementation</li>                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li> <span>2024-Present</span><br> Manipal Institute of Technology,Manipal </li>
+                        <li> <span>2022-2024</span><br> Delhi Public School,Ruby Park,Kolkata</li>
+                        <li> <span>2011-2022</span><br> B.D.Memorial.International,Kolkata</li>                        
+                    </ul>
+                </div>
+             </div>
+         </div>
+    </div>
+</div>
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Skill Sets</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Creating responsive and user-friendly websites using HTML, CSS, and JavaScript.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Designing intuitive and engaging user interfaces with a focus on user experience.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Pandas And Numpy</h2>
+                <p>Utilizing Pandas and Numpy for data manipulation and analysis in Python.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image.png">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>Developed a weather application using HTML, CSS, and JavaScript that fetches real-time weather data from an API.</p>
+                    <a href="https://github.com/SuyashAnand2028/weather_app_JS" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+             <div class="work">
+                <img src="image copy.png">
+                <div class="layer">
+                    <h3>QR code Generator</h3>
+                    <p>Created a QR code generator that allows users to generate QR codes for any text or URL using JavaScript.</p>
+                    <a href="https://github.com/SuyashAnand2028/QR_code_generattor" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#"  class="btn">See more</a>
+    </div>
+</div>
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+             <div class="contact-left">
+                <h1 class="sub-title ">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> suayshanand20@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 9147370994</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/SuyashAnand2028/"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/suyash-anand-023a98291/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+             </div>
+             <div class="contact-right">
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+             </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &copy 2025 Suyash Anand</p>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontnets= document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontnets){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        
+    }    
+
+
+
+</script>
+</body>
+</html>
