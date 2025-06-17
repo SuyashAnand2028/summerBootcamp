@@ -1,4 +1,4 @@
-# 📝 Stylish To-Do List App
+# 📝 To-Do List App
 
 A clean, modern, and interactive To-Do List web application built using **HTML**, **CSS**, and **JavaScript**. Easily add, complete, and delete tasks with a smooth user interface and engaging effects.
 
