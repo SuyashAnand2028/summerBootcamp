@@ -14,7 +14,7 @@ A simple and responsive weather application built with React.js that displays cu
 ## 🛠️ Tech Stack
 
 - React.js (Functional Components + Hooks)
-- CSS (or Tailwind/Bootstrap if used)
+- CSS 
 - OpenWeatherMap API
 
 
