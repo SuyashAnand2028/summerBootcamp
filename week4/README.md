@@ -216,7 +216,7 @@ These projects are created for educational purposes as part of the Summer Bootca
 
 ## 👨‍💻 Developer
 
-**Summer Bootcamp Student**  
+**SUYASH ANAND**  
 Week 4 - Advanced React Development
 
 *Last Updated: July 9, 2025*
